@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+
+}
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+
+header{
+	background: #790D1B;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #BE8006; 
+}
+
+header a{
+	color: ;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #logo{
+	float: left;
+}
+
+header #logo h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header a:hover{
+	color: #ccc;
+	font-weight: bold; 
+}
+
+.menu >li >a{
+	display: block;
+	padding: 15px 40px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu >li a:hover{
+	color: #CE7D35;
+	transition: all .3s; 
+}
+
+.submenu{
+	position: absolute;
+	background: #fff; 
+	display: none;
+}
+
+.submenu >li a{
+	display: block;
+	padding: 15px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	display: block;
+}
+/*Cajas*/
+
+#cajas{
+	margin-top: 20px;
+}
+
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+/*Cabecer*/
+#cabecera{
+	min-height: 300px;
+	background: url('../img/panel.jpg');
+	text-align: center;
+	color: #fff; 
+}
